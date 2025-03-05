@@ -180,3 +180,95 @@ This phase provided a foundation for:
 
 This phased approach ensures steady progression while cementing critical full-stack development concepts and best practices.
 
+Milestone 15: Navigation Component 📝
+1. Create a New Nav Component
+The Nav component should contain links to the following pages:
+Home
+My Products
+Add Product
+Cart
+2. Make the Navbar Responsive
+Ensure the Nav component is fully responsive across all screen sizes.
+Use CSS media queries or a framework like Tailwind CSS or Bootstrap for styling.
+3. Add the Nav Component to All Pages
+Include the Nav component in all pages of the application.
+Implement smooth navigation to ensure a seamless user experience.
+Learning Outcomes
+Understand to create a navigation bar in a web application.
+Learn to implement responsive design for better usability.
+Enhance your skills in linking multiple pages for smooth navigation.
+Milestone 16 - Product Info Page
+will create a product info page that displays all the product data, allows users to choose the quantity, and includes an "Add to Cart" button.
+Learning Goals 🎯
+By the end of this milestone:
+
+How to create a new page to display each product.
+How to add a quantity selector and an "Add to Cart" button.
+Steps for Milestone 16 📝
+Create a new page that displays all the product data.
+Implement a quantity selector for each product.
+Add an "Add to Cart" button to allow users to add products with the selected quantity.
+Milestone 17: Cart Functionality
+Overview
+In this milestone,work on implementing cart functionality. The goal is to store product details in a user's cart and create an endpoint to receive and store these details in the database.
+
+Steps for Milestone 17 📝
+1. Edit the User Schema to Store Cart Products
+Modify the user schema to include a field that will hold product details in the cart.
+2. Write the Cart Schema to Store Products
+Create a new schema for the cart that can store product details such as product ID, quantity, and other necessary attributes.
+3. Write an Endpoint to Receive and Store Product Details in the Cart
+Create a new endpoint that will receive product details from the frontend and store them in the database, specifically in the cart.
+Milestone 18: Cart Functionality - Backend Endpoints
+Overview
+In this milestone, work on backend functionality for the cart. The goal is to create endpoints that handle requests from the cart page and retrieve product details for a user’s cart.
+
+By the End of This Milestone,
+Create an endpoint to receive requests from the cart page.
+Create a backend endpoint to fetch all the products inside the cart based on the user's email.
+Steps for Milestone 18 📝
+1. Create a Backend Endpoint for Cart Page
+Implement an endpoint that will receive requests from the frontend (cart page) and store/update products in the user's cart.
+2. Write an Endpoint to Get Products Inside Cart for a User
+Create a new endpoint that will fetch and return all the products inside the cart for a specific user, identified by their email.
+🛒 Cart Functionality - Milestone 19
+🎯 Learning Goals
+Build a cart page that displays products inside the cart using the endpoint created in Milestone 18.
+Implement an option to increase and decrease product quantity using + and - buttons.
+Develop backend endpoints to handle quantity updates dynamically.
+📝 Steps for Milestone 19
+Create the Cart Page
+
+Develop the frontend page to display products in the cart.
+Add Quantity Controls
+
+Implement + and - buttons for each product to allow users to adjust the quantity.
+Set Up Backend Endpoints
+
+Write API endpoints to increase and decrease product quantity based on user actions.
+Milestone 20 - User Profile Page
+Steps to Complete 📝
+Backend:
+Create an endpoint to send user data (including profile photo, name, email, and address).
+Frontend:
+Create a profile page to display user details.
+Display the following information in one section:
+Profile photo
+Name
+Email
+In another section, display the user's address:
+If an address exists, display it.
+If no address is found, show: "No address found"
+Add a button labeled "Add address" to allow users to add an address.
+Notes:
+Ensure proper API integration between frontend and backend.
+Maintain a clean and responsive UI.
+Handle cases where the user has no address data gracefully.
+
+Milestone 21 ilestone 21! 🌟
+
+Learning Goals 🎯
+Create a frontend form that will take Take inputs for country, city, address
+
+Steps for Milestone 21 📝
+. Create an address form frontend page. . Create a state that will store the in . When clicking on 'Add Address' in the
